@@ -1,3 +1,19 @@
+
+/* 
+
+font-family: 'Josefin Sans', sans-serif;
+font-family: 'Nunito', sans-serif;
+font-family: 'Oswald', sans-serif;
+font-family: 'Pacifico', cursive;
+font-family: 'Source Sans Pro', sans-serif;
+
+
+
+*/
+
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito:wght@200&family=Oswald:wght@200;300&family=Pacifico&family=Source+Sans+Pro:wght@200;400&display=swap');
+
+
 body 
 {
     display: grid;
@@ -28,17 +44,26 @@ body
 #nav
 {
     grid-area: nav;
+    display: flex;
+    align-items: center;
+
     background-color: rgba(16, 100, 102, 1);
-    position: fixed;    
-    height: 100px;
+    position: -webkit-sticky;
+    position: sticky;
     width: 100vw;
  }
 
  #header
 {
     grid-area: header;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    font-family: 'Nunito', sans-serif;
     background-color: rgba(44, 53, 50, 1);
-    height: 100vh;    
+    height: 80vh;    
     position: static;
 
 }
@@ -89,6 +114,7 @@ body
     display: flex;
     flex-direction: row;
     list-style-type: none;
+    
  
 }
 
@@ -97,10 +123,56 @@ body
     display: block;
     margin: 10px;
 }
-
+ 
 #nav ul > li > a 
  {
     text-decoration: none;
-    color: white;
-     
- }
+    color: rgb(166, 187, 180);
+    font-family: 'Source Sans Pro', sans-serif;
+    font-size: 15px;
+}
+
+/* Header */
+
+#header > h1
+{
+    color: rgb(255, 203, 154);
+    font-size: 50px;
+    margin-bottom: 0;
+    margin-top: 10px;
+
+}
+
+#header > h1 > span 
+{
+    color: rgb(210, 233, 227);
+}
+
+#header > h2  
+{
+    color: rgb(210, 233, 227);
+    font-size: 40px;
+    margin: 0;
+}
+
+#header > h2 > span
+{
+    text-decoration: underline;
+    color: rgb(255, 84, 84);
+}
+
+#header > a 
+{
+    margin-top: 10px;
+    text-decoration: none;
+    border-style: solid;
+    color: rgb(210, 233, 227);
+    font-size: 20px;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  }
+
+
+}
