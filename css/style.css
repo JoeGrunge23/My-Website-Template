@@ -46,11 +46,9 @@ body
     grid-area: nav;
     display: flex;
     align-items: center;
+    position: fixed;
     border-bottom: 1px solid  rgb(255, 203, 154);;
     background-color: rgba(44, 53, 50, 1);
-
-    position: -webkit-sticky;
-    position: sticky;
     width: 100vw;
  }
 
@@ -64,7 +62,7 @@ body
 
     font-family: 'Nunito', sans-serif;
     background-color: rgba(44, 53, 50, 1);
-    height: 80vh;    
+    height: 100vh;    
     position: static;
 
 }
