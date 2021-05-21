@@ -133,7 +133,7 @@ body
 
 /* Header */
 
-#header > h1
+#header > div > h1
 {
     color: rgb(255, 203, 154);
     font-size: 50px;
@@ -147,20 +147,20 @@ body
     color: rgb(210, 233, 227);
 }
 
-#header > h2  
+#header > div > h2  
 {
     color: rgb(210, 233, 227);
     font-size: 40px;
     margin: 0;
 }
 
-#header > h2 > span
+#header > div > h2 > span
 {
     text-decoration: underline;
     color: rgb(255, 84, 84);
 }
 
-#header > a 
+#header > div > a 
 {
     margin-top: 10px;
     text-decoration: none;

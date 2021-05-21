@@ -18,11 +18,13 @@
      </ul>
   </nav>
   <header id="header">
-    <h1>HI! <span>I'm Joeriz!</span></h1>
-    <h2>I'm a <span>Programmer</span></h2>
-    <a href="#about">
-      Let's Get Started! 
-    </a>
+    <div>
+      <h1>HI! <span>I'm Joeriz!</span></h1>
+      <h2>I'm a <span>Programmer</span></h2>
+      <a href="#about">
+        Let's Get Started! 
+      </a>
+    </div>
   </header>
   <article id="about"></article>
   <article id="portfolio">portfolio</article>
