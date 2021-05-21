@@ -46,8 +46,9 @@ body
     grid-area: nav;
     display: flex;
     align-items: center;
+    border-bottom: 1px solid  rgb(255, 203, 154);;
+    background-color: rgba(44, 53, 50, 1);
 
-    background-color: rgba(16, 100, 102, 1);
     position: -webkit-sticky;
     position: sticky;
     width: 100vw;
@@ -127,9 +128,9 @@ body
 #nav ul > li > a 
  {
     text-decoration: none;
-    color: rgb(166, 187, 180);
-    font-family: 'Source Sans Pro', sans-serif;
-    font-size: 15px;
+    color: rgb(255, 202, 155);
+    font-family: 'Nunito', sans-serif;
+    font-size: 18px;
 }
 
 /* Header */
@@ -172,7 +173,6 @@ body
     text-align: center;
     text-decoration: none;
     display: inline-block;
-  }
-
-
 }
+
+ 
