@@ -67,7 +67,8 @@ body
 {
     grid-area: about;
     display: flex;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     background-color: rgba(210, 233, 227, 1);    
     height: 100vh;
 }
@@ -203,3 +204,17 @@ body
     text-decoration: underline;
 }
 
+#about > #first-about 
+{
+    display: grid;
+    background-color: red;
+    width: 100vw;
+    height: 300px;
+}
+
+#about > #second 
+{
+    background-color: red;
+    width: 100vw;
+
+}

@@ -30,6 +30,15 @@
 
   <article id="about">
     <h1>A<span>BOU</span>T</h1>
+
+    <div id="first-about">
+      1stchiold
+    </div>
+    
+    <div id="second-about">
+      second
+    </div>
+
   </article>
   
   <article id="portfolio">portfolio</article>
