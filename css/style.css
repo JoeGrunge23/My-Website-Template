@@ -25,11 +25,10 @@ body
     "blog"
     "contact"
     "footer";
-    
     grid-template-rows:  1fr 1fr 1fr 1fr 1fr 1fr 1fr;
     grid-template-columns: 1fr ;
     height: 100vh;
- 
+    overflow-x: hidden;
     margin: 0;
 }
 
@@ -59,12 +58,9 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-
     font-family: 'Nunito', sans-serif;
-    background-color: rgba(44, 53, 50, 1);
+    background-image: url("../imgs/background.gif");
     height: 100vh;    
-    position: static;
-
 }
 
 #about
@@ -137,8 +133,17 @@ body
 {
     color: rgb(255, 203, 154);
     font-size: 50px;
-    margin-bottom: 0;
-    margin-top: 10px;
+}
+
+#header > div 
+{
+    background-color: rgba(44, 53, 50, .8);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    width: 100%;
 
 }
 
