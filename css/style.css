@@ -66,6 +66,8 @@ body
 #about
 {
     grid-area: about;
+    display: flex;
+    justify-content: center;
     background-color: rgba(210, 233, 227, 1);    
     height: 100vh;
 }
@@ -127,8 +129,8 @@ body
     font-size: 18px;
 }
 
-/* Header */
 
+/* Header */
 #header > div > h1
 {
     color: rgb(255, 203, 154);
@@ -162,6 +164,12 @@ body
 #header > div > h2 > span
 {
     text-decoration: underline;
+    color: rgb(216, 176, 140);
+}
+
+#header > div > h1 > span
+{
+    text-decoration: underline;
     color: rgb(255, 84, 84);
 }
 
@@ -179,3 +187,19 @@ body
 }
 
  
+/* About */
+
+#about > h1
+{
+    font-family: 'Josefin Sans', sans-serif;
+    margin-top: 120px;
+    color: rgb(16, 100, 102);
+    font-size: 40px;
+}
+
+#about > h1 > span 
+{
+    color: rgb(255, 84, 84);
+    text-decoration: underline;
+}
+

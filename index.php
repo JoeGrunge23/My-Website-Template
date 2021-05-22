@@ -17,16 +17,21 @@
       <li><a href="#contact">Contact</a></li>
      </ul>
   </nav>
+
   <header id="header">
     <div>
-      <h1>HI! <span>I'm Joeriz!</span></h1>
-      <h2>I'm a <span>Programmer</span></h2>
+      <h1>HI! <span>I'm <span>Joeriz </span>!</span></h1>
+      <h2>I'm a <span> Programmer </span></h2>
       <a href="#about">
         Let's Get Started! 
       </a>
     </div>
   </header>
-  <article id="about"></article>
+
+  <article id="about">
+    <h1>A<span>BOU</span>T</h1>
+  </article>
+  
   <article id="portfolio">portfolio</article>
   <!-- <article id="blog">blog</article> -->
   <article id="contact">contact</article>
