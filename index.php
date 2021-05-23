@@ -22,6 +22,7 @@
     <div>
       <h1>HI! <span>I'm <span>Joeriz </span>!</span></h1>
       <h2>I'm a <span> Programmer </span></h2>
+      
       <a href="#about">
         Let's Get Started! 
       </a>
@@ -29,14 +30,35 @@
   </header>
 
   <article id="about">
-    <h1>A<span>BOU</span>T</h1>
-
-    <div id="first-about">
-      1stchiold
+    <div>
+      <h1>A<span>bout</span></h1>
+      <h2>I LOVE CODING! </h2>
     </div>
-    
-    <div id="second-about">
-      second
+
+    <div class='profile'>
+      <div>
+        <h1>Profile</h1>
+        <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor 
+          incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation 
+          ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in 
+          voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+           sunt in culpa qui officia deserunt mollit anim id est laborum</p>
+      </div>
+      <div>
+        <img src="imgs/kurt.jpg" alt="">
+      </div>
+      <div>
+        <h1>Details</h1>
+        <h2>Name: </h2>
+        <p>Joeriz Casiple</p>
+        <h2>Age: </h2>
+        <p>25</p>
+        <h2>Location: </h2>
+        <p>Davao City, Philippines</p>
+      </div>
+      <div>
+        <p> ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in </p>
+      </div>
     </div>
 
   </article>

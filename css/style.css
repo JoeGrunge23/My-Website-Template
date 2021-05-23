@@ -6,12 +6,14 @@ font-family: 'Nunito', sans-serif;
 font-family: 'Oswald', sans-serif;
 font-family: 'Pacifico', cursive;
 font-family: 'Source Sans Pro', sans-serif;
+font-family: 'Chakra Petch', sans-serif;
+font-family: 'Space Mono', monospace;
 
 
 
 */
 
-@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito:wght@200&family=Oswald:wght@200;300&family=Pacifico&family=Source+Sans+Pro:wght@200;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100&family=Nunito:wght@200&family=Oswald:wght@200;300&family=Pacifico&family=Source+Sans+Pro:wght@200;400&family=Chakra+Petch:wght@300;400&family=Space+Mono&display=swap');
 
 
 body 
@@ -58,7 +60,8 @@ body
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Chakra Petch', sans-serif;
     background-image: url("../imgs/background.gif");
     height: 100vh;    
 }
@@ -69,8 +72,8 @@ body
     display: flex;
     flex-direction: column;
     align-items: center;
-    background-color: rgba(210, 233, 227, 1);    
-    height: 100vh;
+    background-color: rgba(44, 53, 50, 1);    
+    height: 1500px;
 }
 
 
@@ -126,7 +129,9 @@ body
  {
     text-decoration: none;
     color: rgb(255, 202, 155);
-    font-family: 'Nunito', sans-serif;
+    /* font-family: 'Nunito', sans-serif; */
+    font-family: 'Chakra Petch', sans-serif;
+    
     font-size: 18px;
 }
 
@@ -190,31 +195,114 @@ body
  
 /* About */
 
-#about > h1
+#about > div > h1
 {
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: 'Space Mono', monospace;
+    font-size: 60px;
+    font-weight: 50;
     margin-top: 120px;
-    color: rgb(16, 100, 102);
-    font-size: 40px;
+    margin-bottom: 0;
+    color: rgb(210, 233, 227);
+    text-align: center;
+
 }
 
-#about > h1 > span 
+
+
+#about > div > h1 > span 
 {
-    color: rgb(255, 84, 84);
+    color: rgb(255, 203, 152);
     text-decoration: underline;
 }
+ 
 
-#about > #first-about 
+#about > div > h2
+{
+    font-family: 'Chakra Petch', sans-serif;
+    font-size: 30px;
+    margin-top: 0;
+    text-align: center;
+    color: rgb(210, 233, 227);
+}
+
+#about > div 
+{
+    width: 100vw;
+}
+
+#about > div.profile
 {
     display: grid;
-    background-color: red;
+    grid-template-areas:
+    "profile picture details"
+    "footer footer footer";
+    grid-template-columns:  1fr 400px 1fr ;
+    grid-template-rows:  1fr  1fr;
+    height: 800px;
     width: 100vw;
-    height: 300px;
+    font-family: 'Josefin Sans', sans-serif;
+    color: rgb(210, 233, 227);
 }
 
-#about > #second 
+#about > div.profile  h1
 {
-    background-color: red;
-    width: 100vw;
+    font-size: 50px;
+}
+
+#about > div.profile  p 
+{
+    font-size: 20px;
+}
+
+
+#about > div.profile > div:nth-child(1)
+{
+    grid-area: profile;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+
+#about > div.profile > div:nth-child(2)
+{
+    grid-area: profile;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+#about > div.profile > div:nth-child(2)
+{
+    grid-area: picture;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+#about > div.profile > div:nth-child(2) > img 
+{
+    margin-top: 50px;
+    border-radius: 50%;
+    height: 300px;
+    width: 300px;
 
 }
+
+#about > div.profile > div:nth-child(3)
+{
+    grid-area: details;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+#about > div.profile > div:nth-child(4)
+{
+    grid-area: footer;
+    margin-left: 40px;
+    margin-right: 80px;
+}
+
+#about > div.profile > div:nth-child(4) > p
+{
+    text-align: center;
+}
+
+
